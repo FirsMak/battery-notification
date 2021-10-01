@@ -1,5 +1,5 @@
 # battery-notification
-## _This is a simple battery notification_
+## _This is a simple battery notifier_
 
 I used this script for arch+i3
 
