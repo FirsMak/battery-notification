@@ -1,0 +1,19 @@
+dir="source/ting3.mp4"
+
+while [ true ]; do
+
+sleep 10
+
+percentage="$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 |grep percentage | egrep -o '[0-9]+')"
+state="$(upower -i /org/freedesktop/UPower/devices/battery_BAT0 | grep state)"
+echo $percentage
+
+if (( $percentage < 5 )); then
+
+	if grep -a "discharging" <<< "$state"; then
+		xdg-open $dir
+		sleep 240
+	fi
+
+fi
+done
