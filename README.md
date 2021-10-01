@@ -15,7 +15,7 @@ cd battery-notification/
 sudo cp battery-notification /usr/bin/
 ```
 
-## For i3
+## i3
 add in config /home/username/.config/i3/config
 ```sh
 exec --no-startup-id battery-notification
