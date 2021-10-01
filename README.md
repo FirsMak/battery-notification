@@ -5,10 +5,17 @@ I used this script for arch+i3
 
 When the battery is approaching a critical value, the script plays a video (I used a video with spider sense)
 
-## Installation
+![alt text](https://github.com/FirsMak/battery-notification/blob/main/screen.png?raw=true)
 
+## Installation
 ```sh
-git clone https://github.com/FirsMak/console-stopwatch.git
-cd console-stopwatch/
-sudo cp stopwatch /usr/bin/
+git clone https://github.com/FirsMak/battery-notification.git
+cd battery-notification/
+sudo cp battery-notification /usr/bin/
+```
+
+## For i3
+add in config /home/username/.config/i3/config
+```sh
+exec --no-startup-id battery-notification
 ```
