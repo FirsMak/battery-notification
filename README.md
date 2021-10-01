@@ -8,6 +8,7 @@ When the battery is approaching a critical value, the script plays a video (I us
 ![alt text](https://github.com/FirsMak/battery-notification/blob/main/screen.png?raw=true)
 
 ## Installation
+script uses grep and upower
 ```sh
 git clone https://github.com/FirsMak/battery-notification.git
 cd battery-notification/
