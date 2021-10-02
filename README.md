@@ -13,6 +13,7 @@ script uses grep and upower
 git clone https://github.com/FirsMak/battery-notification.git
 cd battery-notification/
 sudo cp battery-notification /usr/bin/
+sudo cp source/ting3.mp4 /usr/bin/
 ```
 
 ## i3
