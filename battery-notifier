@@ -1,5 +1,5 @@
 #!/bin/bash
-dir="/usr/bin/ting3.mp4"
+dir="/usr/local/bin/ting3.mp4"
 
 while [ true ]; do
 
