@@ -1,4 +1,4 @@
-# battery-notification
+# battery-notifier
 ## _This is a simple battery notifier_
 
 I used this script for arch+i3
@@ -10,7 +10,7 @@ When the battery is approaching a critical value, the script plays a video (I us
 ## Installation
 script uses grep and upower
 ```sh
-git clone https://github.com/FirsMak/battery-notification.git
+git clone https://github.com/FirsMak/battery-notifier.git
 cd battery-notification/
 sudo cp battery-notification /usr/bin/
 sudo cp source/ting3.mp4 /usr/bin/
