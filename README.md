@@ -12,8 +12,8 @@ script uses grep and upower
 ```sh
 git clone https://github.com/FirsMak/battery-notifier.git
 cd battery-notifier/
-sudo cp battery-notifier /usr/bin/
-sudo cp source/ting3.mp4 /usr/bin/
+sudo cp battery-notifier /usr/local/bin/
+sudo cp source/ting3.mp4 /usr/local/bin/
 ```
 
 ## i3
