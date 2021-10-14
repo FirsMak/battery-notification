@@ -11,13 +11,13 @@ When the battery is approaching a critical value, the script plays a video (I us
 script uses grep and upower
 ```sh
 git clone https://github.com/FirsMak/battery-notifier.git
-cd battery-notification/
-sudo cp battery-notification /usr/bin/
+cd battery-notifier/
+sudo cp battery-notifier /usr/bin/
 sudo cp source/ting3.mp4 /usr/bin/
 ```
 
 ## i3
 add in config /home/username/.config/i3/config
 ```sh
-exec --no-startup-id battery-notification
+exec --no-startup-id battery-notifier
 ```
